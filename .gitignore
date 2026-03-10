@@ -1,0 +1,17 @@
+# Data
+original_data/
+output/
+code-snippets/
+*.nwb
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+
+# OS
+.DS_Store

@@ -1,0 +1,73 @@
+# Experiment metadata for NWB conversion.
+# Update placeholder values before running the conversion.
+
+# TODO: Update experiment_description with the actual experiment description.
+experiment_description: "Neuropixels recordings from 3 brain areas during a behavioral task"
+# TODO: Update experimenter with the actual experimenter name(s) in "LastName, FirstName" format.
+experimenter:
+  - "Unknown, Experimenter"
+# TODO: Update institution with the actual institution.
+institution: "Unknown"
+# TODO: Update lab with the actual lab.
+lab: "Unknown"
+keywords:
+  - "electrophysiology"
+  - "Neuropixels"
+  - "local field potential"
+  - "single-unit activity"
+  - "con2phys"
+  - "reproducibility"
+
+# Default subject metadata. Can be overridden per session.
+subject:
+  species: "Mus musculus"
+  sex: "U"  # "M", "F", or "U" for unknown
+  # TODO: Update age with the actual age in ISO 8601 duration format.
+  age: "P1M/"  # ISO 8601 duration, e.g. "P90D" for 90 days. "P1M/" means 1 month or older (unknown).
+  # TODO: Update description with the actual subject description.
+  description: "Mouse used in con2phys dataset"
+
+# TODO: Update session_start_time with the actual recording date.
+# Use ISO 8601 format with timezone, e.g. "1970-01-15T09:00:00+01:00".
+session_start_time: "1970-01-01T00:00:00+00:00"
+
+# Per-session overrides. Keys are mouse IDs (1-18).
+# Any field set here takes precedence over the top-level default.
+# TODO: Update session descriptions with actual descriptions.
+sessions:
+  1:
+    session_description: "con2phys recording session for mouse 1"
+  2:
+    session_description: "con2phys recording session for mouse 2"
+  3:
+    session_description: "con2phys recording session for mouse 3"
+  4:
+    session_description: "con2phys recording session for mouse 4"
+  5:
+    session_description: "con2phys recording session for mouse 5"
+  6:
+    session_description: "con2phys recording session for mouse 6"
+  7:
+    session_description: "con2phys recording session for mouse 7"
+  8:
+    session_description: "con2phys recording session for mouse 8"
+  9:
+    session_description: "con2phys recording session for mouse 9"
+  10:
+    session_description: "con2phys recording session for mouse 10"
+  11:
+    session_description: "con2phys recording session for mouse 11"
+  12:
+    session_description: "con2phys recording session for mouse 12"
+  13:
+    session_description: "con2phys recording session for mouse 13"
+  14:
+    session_description: "con2phys recording session for mouse 14"
+  15:
+    session_description: "con2phys recording session for mouse 15"
+  16:
+    session_description: "con2phys recording session for mouse 16"
+  17:
+    session_description: "con2phys recording session for mouse 17"
+  18:
+    session_description: "con2phys recording session for mouse 18"
