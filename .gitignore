@@ -13,5 +13,12 @@ dist/
 build/
 .venv/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache
+lindi_cache/
+nwb-cache/
+
 # OS
 .DS_Store
