@@ -120,6 +120,14 @@ nwbinspector 0.7.0 reports across all 18 files:
 - **18 best practice suggestions**: `session_start_time` is set to
   `1970-01-01T00:00:00+00:00` because the true recording dates are unknown
 
+## Data Corrections
+
+- **Mouse 12 LFP (2026-07-15)**: The original LFP signal for mouse 12 was
+  incorrect. Corrected source data was provided by Mattia Chini on 2026-07-15,
+  and `output/mouse_12.nwb` was regenerated from it. The regenerated file passes
+  nwbinspector 0.7.0 with 0 errors and 0 best practice violations (only the
+  shared `session_start_time` suggestion).
+
 ## Project Structure
 
 ```
@@ -140,4 +148,5 @@ nwbinspector 0.7.0 reports across all 18 files:
 ## How This Was Generated
 
 The conversion scripts were developed with the assistance of Claude Opus 4.6
-(Anthropic) via Claude Code on 2026-03-08.
+(Anthropic) via Claude Code on 2026-03-08. Mouse 12 was regenerated from
+corrected LFP source data with the assistance of Claude Opus 4.8 on 2026-07-15.
